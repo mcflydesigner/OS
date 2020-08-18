@@ -1,0 +1,149 @@
+    1  cd
+    2  ls
+    3  cd c
+    4  cd c:ls
+    5  cd c:/
+    6  ls
+    7  cd OSPanel:/
+    8  cd OSPanel
+    9  ls
+   10  cd domains
+   11  cd tutorik.ru
+   12  ls
+   13  git config --global user.name mcflydesigner
+   14  git config --global user.name "mcflydesigner"
+   15  git config --global user.email "mcflydesigner@gmail.com"
+   16  $git add -A
+   17  git add -A
+   18  git status
+   19  git clone https://github.com/mcflydesigner/project
+   20  git clone  https://github.com/mcflydesigner/project.git
+   21  git clone https://github.com/mcflydesigner/project.git
+   22  cd
+   23  help
+   24  whoami
+   25  hostname
+   26  man whoami
+   27  man help
+   28  man hostname
+   29  yes
+   30  yes
+   31  yes
+   32  whoami
+   33  hostname
+   34  man man
+   35  man
+   36  man --help
+   37  hostname --help
+   38  less
+   39  ls
+   40  less feedback.php
+   41  less feedback.php
+   42  head feedback.php
+   43  tail feedback.php
+   44  grep echo feedback.php
+   45  grep name feedback.php
+   46  ls > list.txt
+   47  ls > list.txt
+   48  head -n < file.txt
+   49  head -n < list.txt
+   50  head --n 3 < file.txt
+   51  head --n 3 < list.txt
+   52  head -help
+   53  head --help
+   54  head -3 < file.txt
+   55  head -3 < list.txt
+   56  head -5 < list.txt
+   57  ls | sort -r
+   58  ls | sort -r | tail -3
+   59  ls
+   60  pwd
+   61  mkdir testdir
+   62  cd testdir
+   63  pwd
+   64  > file.txt
+   65  ls
+   66  gedit file.txt
+   67  cat file.txt
+   68  start file.txt
+   69  rm file.txt
+   70  ls
+   71  ls > file.txt
+   72  file.txt > 
+   73  mkdir test
+   74  ls
+   75  rm test
+   76  rm -r test
+   77  ls
+   78  mv file.txt ..
+   79  cd ..
+   80  mv file.txt testdir
+   81  cat file.txt
+   82  cd ..
+   83  cd /
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  ;s
+   89  ls
+   90  ls
+   91  cd testdir
+   92  cat file.txt
+   93  cat file.txt
+   94  file.txt
+   95  start file.txt
+   96  cat file.txt
+   97  gedit file.txt
+   98  cd ~
+   99  cd testdir
+  100  mkdir test
+  101  cd test
+  102  cd ~
+  103  cd .
+  104  cd testdir
+  105  cd .
+  106  touch file2.txt
+  107  ls
+  108  cat > file3.txt
+  109  cat file3.txt
+  110  echo > file4.txt
+  111  mv file4.txt fileeeee4.txt
+  112  ls
+  113  sleep 2
+  114  (sleep 3 && echo 'done')
+  115  (sleep 3 && echo 'done') &
+  116  jobs
+  117  (sleep 10 && echo 'done') &
+  118  jobs
+  119  jobs
+  120  jobs
+  121  (sleep 10 && echo 'done') &
+  122  jobs
+  123  (sleep 10 && echo 'done') &
+  124  (sleep 10 && echo 'done') &
+  125  jobs
+  126  ping google.com
+  127  ping google.com &
+  128  ping google.com &
+  129  ping google.com &
+  130  (sleep 10 && echo 'done') &
+  131  job 1
+  132  job %1
+  133  fg %1
+  134  fg %1
+  135  job %1
+  136  (sleep 10 && echo 'done') &
+  137  cd ..
+  138  mkdir week1
+  139  cd week1
+  140  ls /usr/bin
+  141  ls usr/bin/ | sort -r > test.txt
+  142  ls usr/bin | sort -r > test.txt
+  143  ls /usr/bin
+  144  ls /usr/bin > file.txt
+  145  ls /usr/bin > file1111.txt
+  146  ls /usr/bin | sort -r
+  147  ls /usr/bin | sort -r > filenew.txt
+  148  ls /usr/bin | grep gcc | sort -r > ex1.txt
+  149  history > ex2.txt

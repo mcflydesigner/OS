@@ -16,10 +16,10 @@ void printTree(int n) {
 	}
 }
 
-int main() {
-    int n;
-    printf("Enter n: ");
-	scanf("%d", &n);
+//n as a command line parameter
+int main(int n) {
+    //printf("Enter n: ");
+	//scanf("%d", &n);
 	printTree(n);
 
     return 0;

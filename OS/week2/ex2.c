@@ -16,7 +16,7 @@ int main() {
     
     input[i] = '\0';
 
-	int k;
+    int k;
 	
     for(i = 0; input[i] != '\0'; i++);
     {
@@ -24,15 +24,14 @@ int main() {
     }
     
     int j;
-	printf("The reversed string is:");
+    printf("The reversed string is:");
     
     for(j = 0; j <= i-1; j++)
     {
         printf("%c", input[k]);
         k--;
     }
-
-
+	
     return 0;
 }
 

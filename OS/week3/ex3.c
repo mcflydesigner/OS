@@ -40,7 +40,8 @@ void insert_node(int data, struct Node* head) {
 	head->next = newNode;
 }
 
-
+//A function to delete the node by INDEX(not value)
+//Arguments: index of deleting node, node
 void delete_node(int index, struct Node* head) {
 	if (index < 0) return;
 	

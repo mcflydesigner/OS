@@ -1,0 +1,10 @@
+Each page has a size of 8KB = 8192 bits and we know that 8192 = 2^(13).
+It means that the size of offset of an virtual address must be exactly 13 bits.
+
+Since our machine has 16-bit virtual addresses, we can have 2^(16) = 65536 virtual addresses.
+However, we should must have only 13 bits as offset in the virtual address. So, 16-13=3 remaining
+bits which can be used for addresses of single-level linear page table. Each bit out of 3 can have
+2 values: 0 or 1. 
+Using combinatorics we can find that we can have at most 2^(3)=8 entries in single-level linear page table.
+
+Answer: 8 entries.  

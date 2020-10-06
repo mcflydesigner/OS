@@ -1,0 +1,14 @@
+Physical address:
+it is an address(binary number) to a physical cell(usually, small) with a limited size of the memory(usually, RAM). 
+The main thing is that the cell is physically exist on some chips. 
+In addition, in most cases the physical address cannot be accessed directly since the request to memory
+must go through Memory Management Unit(MMU). We use physical addresses to access physical cells.
+
+Virtual address:
+it is a generated address(binary number) to a cell which is located in the virtual memory. The main thing is that
+the cell can be stored in different types of memory by switching parts of the memory(pages) between fast and expensive and low and cheap mem.
+Virtual address are mapping to physical addresses using MMU module which is responsible for mapping addresses and switching pages.
+We use them to simulate that our machine has more fast and expensive memory because in most cases fast and expensive memory which is overloaded, but we need
+to put new data there too somehow.
+
+

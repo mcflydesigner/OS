@@ -1,0 +1,20 @@
+High hit / miss ratio:
+Sequence: 1 1 1 2 2 2 3 3 3 4 4 4 3 2 4 3 2 3
+N = 2
+Number of hits = 11
+Number of misses = 7
+Number of hits / Number of misses = 1.571429
+
+Low hit / miss ratio:
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+N = 3
+Number of hits = 6
+Number of misses = 14
+Number of hits / Number of misses = 0.428571
+
+Explanation:
+The aging principle is based on the following: pages that were used in the last few instructions will be used again soon.
+If we look at high hit / miss ratio we will see that if we often request the same pages with a small interval we will git them with a high probability,
+because the algorithm stores least recently used elements in the page.
+If we look at low hit / miss ration we will observe that if we request different pages or same page but with long interval, the probability to get
+the page from the table will be low since the algorithm holds only least elements which were referenced recently.

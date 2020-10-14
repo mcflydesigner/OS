@@ -6,7 +6,7 @@ Number of misses = 7
 Number of hits / Number of misses = 1.571429
 
 Low hit / miss ratio:
-1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+Sequence: 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
 N = 3
 Number of hits = 6
 Number of misses = 14

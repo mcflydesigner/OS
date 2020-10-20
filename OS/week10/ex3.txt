@@ -1,0 +1,32 @@
+-rw-rw-r-- 1 vladislav vladislav 0 окт 20 14:40 _ex3.txt
+-rw-rw-r-- 1 vladislav vladislav 0 окт 20 14:40 _ex3.txt
+-rwxrw-rwx 1 vladislav vladislav 0 окт 20 14:40 _ex3.txt
+-rwxrwxrwx 1 vladislav vladislav 0 окт 20 14:40 _ex3.txt
+
+Explanation of group permissions:
+Each number we should represent as a binary number and for each
+user we will get permission bits in the following order:  user -> group -> other. 
+Each group of bits specifies the access bits in the following order: read / write / execute.
+
+1) In case: 660
+6 in binary representation: 110
+0 in binary representation: 000
+
+user: can read and write, but cannot execute
+group: can read and write, but cannot execute
+other: cannot read, write and execute
+
+2) In case: 775
+7 in binary representation: 111
+5 in binary representation: 101
+
+user: can read, write and execute
+group: can read, write and execute
+other: can execute and read, cannot write
+
+3) In case: 777
+7 in binary representation: 111
+
+user: can read, write and execute
+group: can read, write and execute
+other: can read, write and execute

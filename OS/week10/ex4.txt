@@ -1,0 +1,3 @@
+Inode's number is 1179694:
+link1
+file1

@@ -1,0 +1,15 @@
+Explanation:
+
+1 program output:
+Hello
+Hello
+
+It happend because by default we obtain line buffering. When we execute command fork() we obtain 2 processess and both of them have shared memory(copy on write) with not flushed buffer. So, when each process prints "\n" symbol, it flushes its buffer to the output stream(stdout). To conclude, when we have line buffering, the process flushes the buffer when it faces with the new line symbol.
+
+2 program output:
+Hello
+
+
+
+
+It happend because first command printf contained the character of new line("\n" symbol), and as a result the buffer was flushed before the fork. After the fork each process just prints the new line(before flushing the empty buffer, but there is no symbols, as a result, just new line). 
